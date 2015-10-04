@@ -5,3 +5,13 @@
   Type: Standard
   Organization: Elements
   Version: 2.2.21
+
+- Class: text
+  Output: This SWIRL tutorial introduces varibale types in R. 
+
+- Class: cmd_question
+  Output: Let's define a numerical variable called my_variable and assign a value of 12.
+  CorrectAnswer: my_variable <- 12
+  AnswerTests: omnitest(correctExpr='my_variable <- 12')
+  Hint: Use the assignment operator <- and use the suggested variable name.
+  
